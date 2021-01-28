@@ -24,7 +24,6 @@ public func solution(_ N : Int) -> Int {
             if currentZeros > maxGap {
                 maxGap = currentZeros
             }
-            flagForCounting = false
             currentZeros = 0
             
         }
